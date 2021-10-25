@@ -64,8 +64,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Controllers\ControllerEndGame.cs" />
+    <Compile Include="Assets\Scripts\Controllers\ControllerHUD.cs" />
+    <Compile Include="Assets\Scripts\Controllers\IController.cs" />
+    <Compile Include="Assets\Scripts\Entity.cs" />
+    <Compile Include="Assets\Scripts\Helpers\PoolObjects.cs" />
+    <Compile Include="Assets\Scripts\Models\IModel.cs" />
+    <Compile Include="Assets\Scripts\Models\ModelEndGame.cs" />
+    <Compile Include="Assets\Scripts\Models\ModelHUD.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
+    <Compile Include="Assets\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
+    <Compile Include="Assets\Scripts\UI\TimerUI.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/2019.4.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
